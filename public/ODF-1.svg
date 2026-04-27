@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="64.3016" cy="58.5563" rx="54.3016" ry="54.5563" fill="#FAAB78"/>
+<path d="M60.6 124L53 112H72L60.6 124Z" fill="#FAAB78" stroke="#FAAB78" stroke-width="1.07697"/>
+<g clip-path="url(#clip0_26945_112404)">
+<rect width="57" height="57" transform="translate(36 30)" fill="white"/>
+<path d="M50.25 72.75V44.25H78.75V72.75H50.25Z" fill="black"/>
+<path d="M36 87V30H93V87H36ZM42.3333 80.6667H86.6667V36.3333H42.3333V80.6667Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_26945_112404">
+<rect width="57" height="57" fill="white" transform="translate(36 30)"/>
+</clipPath>
+</defs>
+</svg>
