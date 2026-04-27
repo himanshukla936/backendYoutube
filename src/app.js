@@ -29,7 +29,13 @@ app.use(cookieParser()); // Middleware to parse cookies from incoming requests
 
 import userRoute from "./routes/user.route.js";
 
-app.use("/api/v1/users", userRoute); // Mount the user routes at the /api/v1/users path
+app.use("/api/v1/users", userRoute);
 
+app.use((err, req, res, next) => {
+    res.status(err.statusCode || 500).json({
+        success: false,
+        message: err.message
+    });
+});
 
 export default app;

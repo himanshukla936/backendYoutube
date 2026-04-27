@@ -5,7 +5,6 @@ import User from "../models/user.model.js";
 import uploadToCloudinary from "../utils/cloudinary.js";
 
 const registerUser = asyncHandler(async (req, res) => {
-    console.log("Received registration request with body", req.body);
     const { userName, email, fullName, password } = req.body;
 
     if ([userName, email, fullName, password].some(field => !field)) {
